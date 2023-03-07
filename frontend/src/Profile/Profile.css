@@ -1,0 +1,114 @@
+.profile-container {
+  width: min(90vw, 1000px);
+  min-height: 100vh;
+  margin: auto;
+  border: 1px rgb(196, 196, 196) solid;
+  margin-top: 10vh;
+  border-radius: 10px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.profile-main-left {
+  width: 70%;
+  border-right: 1px solid rgb(185, 185, 185);
+  padding: 15px;
+}
+
+.profile-user-info ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+
+.profile-user-info li {
+  width: 100%;
+  padding: 15px 0;
+  border-bottom: 1px solid gray;
+  border-width: 100%;
+}
+
+.profile-user-info ul li label {
+  min-width: 200px;
+  display: inline-block;
+  font-weight: bolder;
+}
+.profile-pic-name-container {
+  display: flex;
+  border-bottom: 1px solid rgb(185, 185, 185);
+  padding: 15px;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.profile-name {
+  padding-left: 15px;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.profile-main-right {
+  /* width: 35%; */
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-main-right-upper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+.profile-global-rank-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-main-right-lower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px rgb(168, 168, 168) solid;
+}
+.profile-recent-activity-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px rgb(207, 207, 207) solid;
+  border-radius: 5px;
+  max-height: 50vh;
+  overflow: auto;
+}
+
+.profile-recent-activity-container table {
+  font-size: 0.9rem;
+}
+.profile-recent-activity-container thead {
+  font-weight: bolder;
+}
+.profile-recent-activity-container td {
+  padding: 15px 3px;
+}
+.profile-recent-activity-container tr {
+  box-shadow: rgb(65, 65, 65) 0px 2px;
+}
+
+.profile-recent-activity-container tbody tr:last-child {
+  box-shadow: rgb(65, 65, 65) 0px 0px;
+}
+
+.profile-recent-activities-no-submissions {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px auto;
+  font-weight: bold;
+  color: rgb(173, 173, 173);
+}
+.users-no-submissions {
+  border: none;
+  font-size: 2rem;
+  margin-top: 20px;
+  color: rgb(179, 179, 179);
+  text-align: center;
+}

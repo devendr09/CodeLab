@@ -1,0 +1,33 @@
+/* select {
+  padding: 5px;
+  width: fit-content;
+  border: 1px solid #474747;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 1px 3px -2px #9098a9;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 150ms ease;
+  outline: none;
+  -webkit-appearance: menulist-button;
+  max-height: 200px;
+  overflow: auto;
+}
+
+option {
+  color: #223254;
+}
+
+#fontSize {
+  background-color: rgb(243, 243, 243);
+  width: 50px;
+  border: #474747 solid 1px;
+  border-radius: 5px;
+  padding: 1.5px 5px 1.5px 3px;
+  outline: none;
+}
+
+.SelectTags label {
+  margin: 10px;
+  font-size: 15px;
+} */

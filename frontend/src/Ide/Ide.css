@@ -1,0 +1,126 @@
+:root {
+  --gray-background: rgb(243, 243, 243);
+  --ide-width: 60vw;
+  --gray-border: rgb(134, 134, 134);
+}
+
+.ide-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.ide-container {
+  position: relative;
+  padding: 50px;
+  background-color: var(--gray-background);
+  box-shadow: rgb(161, 161, 161) 0 0 5px;
+  margin-bottom: 100px;
+}
+
+.ide-question-id {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ide {
+  background-color: var(--gray-background);
+  padding: 10px;
+}
+
+.intro {
+  width: var(--ide-width);
+  padding: 10px;
+  color: #666;
+}
+
+.ide-heading {
+  font-size: 28px;
+  border: none;
+  color: #666;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  padding: 0;
+  max-width: 680px;
+  width: 100%;
+}
+
+.ide-header {
+  padding: 10px 0 10px;
+  display: flex;
+  border: 1px solid var(--gray-border);
+  border-bottom: none;
+  justify-content: space-between;
+}
+.fas {
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-left: auto;
+}
+.fas:active {
+  transform: scale(0.95);
+}
+.ide .main-container {
+  border-radius: 2px;
+}
+
+.code-input-container {
+  padding: 0;
+  margin: 0;
+  background-color: var(--gray-background);
+}
+
+#code-input {
+  border: var(--gray-border) 1px solid;
+  width: 100% !important;
+}
+
+.ide-controller {
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--gray-background);
+}
+
+.run-btn-container,
+.submit-btn-container {
+  margin: 10px;
+}
+
+.in-out-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.output-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.output-container {
+  width: calc(var(--ide-width) / 2);
+  height: 20vh;
+  border: 1px solid var(--gray-border);
+  background-color: white;
+  padding: 10px;
+  overflow: auto;
+  font-size: 1.2rem;
+  outline: none;
+  resize: none;
+}
+
+.input-container {
+  width: calc(var(--ide-width) / 2);
+  height: 20vh;
+  border: 1px solid var(--gray-border);
+  background-color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+  resize: none;
+  overflow: auto;
+  outline: none;
+}

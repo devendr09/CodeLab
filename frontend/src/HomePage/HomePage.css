@@ -1,0 +1,31 @@
+.home-page-top-page {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+
+.home-page-top-page-image {
+  width: 50vw;
+  height: auto;
+}
+
+.home-page-top-page-heading {
+  font-size: 6rem;
+  font-weight: bolder;
+  color: rgb(112, 112, 112);
+}
+.home-page-top-page-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.home-page-top-page-heading-quote {
+  color: rgb(146, 146, 146);
+}
+
+.home-page-middle-container {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
